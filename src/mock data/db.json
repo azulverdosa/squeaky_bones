@@ -1,0 +1,124 @@
+{
+  "dogs": [
+    {
+      "name": "Gasbode",
+      "color": "white",
+      "size": 12,
+      "breed": "Miniature Schnauzer"
+    },
+    {
+      "name": "Wuffles",
+      "color": "black",
+      "size": 8,
+      "breed": "Shih Tzu"
+    },
+    {
+      "name": "Mr. Fusspot",
+      "color": "brown",
+      "size": 24,
+      "breed": "Toy Poodle"
+    },
+    {
+      "name": "Laddie",
+      "color": "red",
+      "size": 30,
+      "breed": "Border Collie"
+    },
+    {
+      "name": "Angua",
+      "color": "white",
+      "size": 34,
+      "breed": "Golden Retriever"
+    },
+    {
+      "name": "Rincewind",
+      "color": "black",
+      "size": 18,
+      "breed": "Chihuahua"
+    },
+    {
+      "name": "Weatherwax",
+      "color": "brown",
+      "size": 13,
+      "breed": "Doberman Pinscher"
+    },
+    {
+      "name": "Magrat",
+      "color": "red",
+      "size": 30,
+      "breed": "Standard Poodle"
+    },
+    {
+      "name": "Greebo",
+      "color": "white",
+      "size": 44,
+      "breed": "Rottweiler"
+    },
+    {
+      "name": "Stibbons",
+      "color": "black",
+      "size": 6,
+      "breed": "Yorkshire Terrier"
+    },
+    {
+      "name": "Vetinari",
+      "color": "black",
+      "size": 20,
+      "breed": "Schipperke"
+    },
+    {
+      "name": "Ridcully",
+      "color": "red",
+      "size": 35,
+      "breed": "Saint Bernard"
+    },
+    {
+      "name": "The Librarian",
+      "color": "red",
+      "size": 40,
+      "breed": "Basset Hound"
+    },
+    {
+      "name": "TwoFlower",
+      "color": "brown",
+      "size": 12,
+      "breed": "Chow Chow"
+    },
+    {
+      "name": "Detritus",
+      "color": "white",
+      "size": 44,
+      "breed": "Mastiff"
+    },
+    {
+      "name": "Carrot",
+      "color": "red",
+      "size": 31,
+      "breed": "Golden Retriever"
+    },
+    {
+      "name": "Vimes",
+      "color": "brown",
+      "size": 28,
+      "breed": "English Bulldog"
+    },
+    {
+      "name": "Cheery",
+      "color": "black",
+      "size": 11,
+      "breed": "Shetland Sheepdog"
+    },
+    {
+      "name": "Nobby",
+      "color": "brown",
+      "size": 9,
+      "breed": "Pug"
+    },
+    {
+      "name": "Brutha",
+      "color": "white",
+      "size": 21,
+      "breed": "Pembroke Welsh Corgi"
+    }
+  ]
+}
