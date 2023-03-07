@@ -4,121 +4,141 @@
       "name": "Gasbode",
       "color": "white",
       "size": 12,
-      "breed": "Miniature Schnauzer"
+      "breed": "Miniature Schnauzer",
+      "commands": "sit, stay, here, come"
     },
     {
       "name": "Wuffles",
       "color": "black",
       "size": 8,
-      "breed": "Shih Tzu"
+      "breed": "Shih Tzu",
+      "commands": "sit, stay, heel, come"
     },
     {
       "name": "Mr. Fusspot",
       "color": "brown",
       "size": 24,
-      "breed": "Toy Poodle"
+      "breed": "Toy Poodle",
+      "commands": "sit, stay, heel, come, paw"
     },
     {
       "name": "Laddie",
       "color": "red",
       "size": 30,
-      "breed": "Border Collie"
+      "breed": "Border Collie",
+      "commands": "sit, stay, heel, come, paw"
     },
     {
       "name": "Angua",
       "color": "white",
       "size": 34,
-      "breed": "Golden Retriever"
+      "breed": "Golden Retriever",
+      "commands": "sit, stay, heel, come, paw"
     },
     {
       "name": "Rincewind",
       "color": "black",
       "size": 18,
-      "breed": "Chihuahua"
+      "breed": "Chihuahua",
+      "commands": "sit, stay, heel, come, paw"
     },
     {
       "name": "Weatherwax",
       "color": "brown",
       "size": 13,
-      "breed": "Doberman Pinscher"
+      "breed": "Doberman Pinscher",
+      "commands": "sit, stay, heel, come, paw"
     },
     {
       "name": "Magrat",
       "color": "red",
       "size": 30,
-      "breed": "Standard Poodle"
+      "breed": "Standard Poodle",
+      "commands": "sit, stay, heel, come, paw"
     },
     {
       "name": "Greebo",
       "color": "white",
       "size": 44,
-      "breed": "Rottweiler"
+      "breed": "Rottweiler",
+      "commands": "sit, stay, heel, come, paw"
     },
     {
       "name": "Stibbons",
       "color": "black",
       "size": 6,
-      "breed": "Yorkshire Terrier"
+      "breed": "Yorkshire Terrier",
+      "commands": "sit, stay, heel, come, paw"
     },
     {
       "name": "Vetinari",
       "color": "black",
       "size": 20,
-      "breed": "Schipperke"
+      "breed": "Schipperke",
+      "commands": "sit, stay, heel, come, paw"
     },
     {
       "name": "Ridcully",
       "color": "red",
       "size": 35,
-      "breed": "Saint Bernard"
+      "breed": "Saint Bernard",
+      "commands": "sit, stay, heel, come, paw"
     },
     {
       "name": "The Librarian",
       "color": "red",
       "size": 40,
-      "breed": "Basset Hound"
+      "breed": "Basset Hound",
+      "commands": "sit, stay, heel, come, paw"
     },
     {
       "name": "TwoFlower",
       "color": "brown",
       "size": 12,
-      "breed": "Chow Chow"
+      "breed": "Chow Chow",
+      "commands": "sit, stay, heel, come, paw"
     },
     {
       "name": "Detritus",
       "color": "white",
       "size": 44,
-      "breed": "Mastiff"
+      "breed": "Mastiff",
+      "commands": "sit, stay, heel, come, paw"
     },
     {
       "name": "Carrot",
       "color": "red",
       "size": 31,
-      "breed": "Golden Retriever"
+      "breed": "Golden Retriever",
+      "commands": "sit, stay, heel, come, paw"
     },
     {
       "name": "Vimes",
       "color": "brown",
       "size": 28,
-      "breed": "English Bulldog"
+      "breed": "English Bulldog",
+      "commands": "sit, stay, heel, come, paw"
     },
     {
       "name": "Cherry",
       "color": "black",
       "size": 11,
-      "breed": "Shetland Sheepdog"
+      "breed": "Shetland Sheepdog",
+      "commands": "sit, stay, heel, come, paw"
     },
     {
       "name": "Nobby",
       "color": "brown",
       "size": 9,
-      "breed": "Pug"
+      "breed": "Pug",
+      "commands": "sit, stay, heel, come, paw"
     },
     {
       "name": "Brutha",
       "color": "white",
       "size": 21,
-      "breed": "Pembroke Welsh Corgi"
+      "breed": "Pembroke Welsh Corgi",
+      "commands": "sit, stay, heel, come, paw"
     }
   ]
 }
