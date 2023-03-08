@@ -3,9 +3,18 @@
     {
       "name": "Gasbode",
       "color": "white",
+      "Age": 3,
       "size": 12,
       "breed": "Miniature Schnauzer",
-      "commands": "sit, stay, here, come"
+      "commands": "sit, stay, here, come",
+      "health concerns": "artheritis",
+      "metication": "metacam",
+      "microchip": 1234567567890,
+      "vaccine status": {
+        "rabies": true,
+        "dhpp": false,
+        "bordatella": true
+      }
     },
     {
       "name": "Wuffles",
