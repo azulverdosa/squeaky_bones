@@ -1,9 +1,10 @@
 {
   "dogs": [
     {
+      "member id": 12332456532644,
       "name": "Gasbode",
       "color": "white",
-      "Age": 3,
+      "age": 3,
       "size": 12,
       "breed": "Miniature Schnauzer",
       "commands": "sit, stay, here, come",
@@ -14,6 +15,16 @@
         "rabies": true,
         "dhpp": false,
         "bordatella": true
+      },
+      "flea & tick protection": {
+        "status": false,
+        "brand": "n/a",
+        "frequency": "monthly",
+        "next dose due": "date"
+      },
+      "food allergies": {
+        "status": true,
+        "specifics": ["chicken", "beef"]
       }
     },
     {
