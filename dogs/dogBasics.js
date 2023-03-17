@@ -1,19 +1,19 @@
 const basic = [
   {
     name: 'Juno',
-    color: 'Black and tan',
     age: 11,
+    color: 'black & tan',
+    weight: 65,
     breed: 'Husky Mix',
     sex: F,
-    weight: 65,
   },
   {
     name: 'Poppy',
-    color: 'Fawn',
     age: 6,
+    color: 'fawn',
+    weight: 25,
     breed: 'French Bulldog',
     sex: F,
-    weight: 25,
   },
 
   {
