@@ -498,4 +498,12 @@ const basic = [
     breed: 'Australian Cattle Dog',
     sex: F,
   },
+  {
+    name: 'Jester',
+    age: 1,
+    color: 'black & brown',
+    weight: 53,
+    breed: 'Rottweiler',
+    sex: F,
+  },
 ];
