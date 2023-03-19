@@ -506,4 +506,12 @@ const basic = [
     breed: 'Rottweiler',
     sex: F,
   },
+  {
+    name: 'Kira',
+    age: 11,
+    color: 'tan & white',
+    weight: 53,
+    breed: 'bulldog mix',
+    sex: F,
+  },
 ];
