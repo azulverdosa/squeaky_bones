@@ -498,4 +498,12 @@ const basic = [
     breed: 'Domestic Longhair',
     sex: F,
   },
+  {
+    name: 'Pinky',
+    age: 7,
+    color: 'Calico',
+    weight: 8,
+    breed: 'Domestic Shorthair',
+    sex: F,
+  },
 ];
