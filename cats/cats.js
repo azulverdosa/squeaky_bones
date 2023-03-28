@@ -501,9 +501,19 @@ const basic = [
   {
     name: 'Pinky',
     age: 7,
-    color: 'Calico',
+    color: 'calico',
     weight: 8,
     breed: 'Domestic Shorthair',
     sex: F,
   },
+  {
+    name: 'Beavis',
+    age: 2,
+    color: 'tabby',
+    weight: 15,
+    breed: 'Maine Coon',
+    sex: M,
+  },
 ];
+
+//https://catoftheday.com/
