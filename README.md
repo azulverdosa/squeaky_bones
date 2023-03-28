@@ -1,6 +1,6 @@
 # Pet Information Database
 
-> List of dogs and cats and their details, for use as mock data
+> List of dogs and cats and their details, for use as mock data.
 
 ## Table of Contents
 
@@ -8,6 +8,12 @@
 - [Project Status](#project-status)
 - [Room for Improvement](#room-for-improvement)
 - [Contact](#contact)
+- [Support](#🤝-support)
+- [License](#license)
+
+## General Info
+
+This is a little mini project of mine that is to build a database of dog and cats with a short list of details. The goal for this database is for me to use in applications later that I have on the back burner. I would like to open this up for Hactoberfest to allow new developers the chance to make commits. There are sone other files that are slightly related to random thoughts I've had for applications.
 
 ## Project Status
 
@@ -17,7 +23,8 @@ Status: In Progress
 
 Improvement Thoughts:
 
-- Build out detailed list that can be used for vetrinarians or dog daycare
+- Build out detailed list that can be used for vetrinarians or dog daycare, or any other project I can think of
+- Open up for Hactoberfest to help jr devs get moving on GtiHub
 
 ## Contact
 
