@@ -516,10 +516,20 @@ const basic = [
   },
   {
     name: 'Ducky',
-    age: 18,
+    age: 8,
     color: 'beige',
     weight: 14,
     breed: 'Shih Tzu',
     sex: F,
   },
+  {
+    name: 'Stella',
+    age: 6,
+    color: 'white & brindle',
+    weight: 65,
+    breed: 'Boxer',
+    sex: F,
+  },
 ];
+
+//https://dogoftheday.com/
