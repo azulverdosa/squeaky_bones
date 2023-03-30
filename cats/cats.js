@@ -514,6 +514,14 @@ const basic = [
     breed: 'Maine Coon',
     sex: M,
   },
+  {
+    name: 'Sweetie',
+    age: 7,
+    color: 'white and black',
+    weight: 13,
+    breed: 'Bobtail Mix',
+    sex: M,
+  },
 ];
 
 //https://catoftheday.com/
