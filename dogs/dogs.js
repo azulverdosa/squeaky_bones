@@ -530,6 +530,14 @@ const basic = [
     breed: 'Boxer',
     sex: F,
   },
+  {
+    name: 'Rocky',
+    age: 3,
+    color: 'brindle',
+    weight: 72,
+    breed: 'Boxer',
+    sex: F,
+  },
 ];
 
 //https://dogoftheday.com/
