@@ -536,7 +536,7 @@ const basic = [
     color: 'brindle',
     weight: 72,
     breed: 'Boxer',
-    sex: F,
+    sex: M,
   },
 ];
 
