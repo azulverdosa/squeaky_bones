@@ -528,7 +528,31 @@ const basic = [
     color: 'tortoiseshell',
     weight: 11,
     breed: 'Domestic Shorthair',
+    sex: F,
+  },
+  {
+    name: 'Skittles',
+    age: 9,
+    color: 'seal',
+    weight: 14,
+    breed: 'Ragdoll',
     sex: M,
+  },
+  {
+    name: 'Freddie',
+    age: 13,
+    color: 'grey',
+    weight: 15,
+    breed: 'Scottish Fold',
+    sex: M,
+  },
+  {
+    name: 'Velvet',
+    age: 4,
+    color: 'white & grey',
+    weight: 10,
+    breed: 'Burmese',
+    sex: F,
   },
 ];
 
