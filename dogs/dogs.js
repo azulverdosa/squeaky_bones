@@ -546,6 +546,14 @@ const basic = [
     breed: 'Pomeranian',
     sex: F,
   },
+  {
+    name: 'Georgia',
+    age: 7,
+    color: 'beige & black',
+    weight: 65,
+    breed: 'Doberman mix',
+    sex: F,
+  },
 ];
 
 //https://dogoftheday.com/
