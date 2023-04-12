@@ -538,6 +538,14 @@ const basic = [
     breed: 'Boxer',
     sex: M,
   },
+  {
+    name: 'Birdie',
+    age: 1,
+    color: 'beige',
+    weight: 12,
+    breed: 'Pomeranian',
+    sex: F,
+  },
 ];
 
 //https://dogoftheday.com/
