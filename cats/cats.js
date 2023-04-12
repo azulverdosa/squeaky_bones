@@ -522,6 +522,14 @@ const basic = [
     breed: 'Bobtail Mix',
     sex: M,
   },
+  {
+    name: 'Ginger',
+    age: 2,
+    color: 'tortoiseshell',
+    weight: 11,
+    breed: 'Domestic Shorthair',
+    sex: M,
+  },
 ];
 
 //https://catoftheday.com/
