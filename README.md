@@ -13,7 +13,7 @@
 
 ## General Info
 
-This is a little mini project of mine that is to build a database of dog and cats with a short list of details. The goal for this database is for me to use in applications later that I have on the back burner. I would like to open this up for Hactoberfest to allow new developers the chance to make commits. There are sone other files that are slightly related to random thoughts I've had for applications.
+This is a little mini project of mine that is going to be used as a database of dog and cats with a short list of details. The goal for this database is for me to use in applications in the future that I have on the back burner. I am opening this up for Hactoberfest to allow new developers the chance to make commits. There are some other files in this same repo that are related to random thoughts I've had for applications.
 
 ## Project Status
 
