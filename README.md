@@ -35,7 +35,7 @@ Created by [@azulverdosa](ellemocambo@gmail.com) - feel free to contact me!
 ## 🤝 Support
 
 Contributions, issues, and feature requests are welcome!
-- Inspiration - (https://github.com/Donard97/vet-clinic-database)
+- Inspiration - https://github.com/Donard97/vet-clinic-database
 
 Give a ⭐️ if you like this project!
 
