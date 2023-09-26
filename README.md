@@ -28,7 +28,7 @@ Improvement Thoughts:
 
 ## Contact
 
-Created by [@azulverdosa](ellemocambo@gmail.com) - feel free to contact me!
+Created by [@azulverdosa](<ellemocambo@gmail.com>) - feel free to contact me!
 
 - [LinkedIn](https://www.linkedin.com/in/avatorre/ 'linked')
 
