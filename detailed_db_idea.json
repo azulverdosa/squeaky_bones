@@ -3,18 +3,24 @@
     {
       "member id": 12332456532644,
       "name": "Gasbode",
-       "breed": "Miniature Schnauzer",
+      "breed": "Miniature Schnauzer",
       "color": "white",
       "age": 3,
-      "size": 12,
+      "weight": 12,
       "commands": "sit, stay, here, come",
-      "health concerns": "artheritis",
-      "metication": "metacam",
-      "microchip": 1234567567890,
+      "health concerns": "arthritis",
+      "medication": {
+        "name": "Metacam",
+        "form": "liquid",
+        "strength": "for dogs",
+        "dose": "15kg",
+        "frequency": "SID"
+      },
+      "microchip": { "complete": true, "number": 1234567567890 },
       "vaccine status": {
-        "rabies": true,
-        "dhpp": false,
-        "bordatella": true
+        "rabies": { "complete": true, "expires": "date" },
+        "dhpp": { "complete": false, "expires": "n/a" },
+        "bordatella": { "complete": true, "expires": "date" }
       },
       "flea & tick protection": {
         "status": false,
@@ -29,7 +35,8 @@
       "photo": {
         "status": true,
         "picture": "file.png"
-      }
+      },
+      "owner comments": "ear shy"
     }
   ]
 }
