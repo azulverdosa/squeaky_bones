@@ -3,10 +3,10 @@
     {
       "member id": 12332456532644,
       "name": "Gasbode",
+       "breed": "Miniature Schnauzer",
       "color": "white",
       "age": 3,
       "size": 12,
-      "breed": "Miniature Schnauzer",
       "commands": "sit, stay, here, come",
       "health concerns": "artheritis",
       "metication": "metacam",
