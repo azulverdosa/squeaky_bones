@@ -13,6 +13,8 @@
 - [Support](#🤝-support)
 - [License](#license)
 
+<span style="color: red;">text</span>
+
 ## General Info
 
 This is a mini project of mine that is going to be used as mock-data of dogs and cats with a short list of pet details. I plan to use this database as mock-data in applications that I have on the back burner. I am opening this up for Hacktoberfest to allow new developers the chance to make their first contributions! There are some other files in this same repo that are related to random thoughts I've had for applications.
