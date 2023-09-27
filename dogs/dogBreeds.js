@@ -1549,12 +1549,4 @@ const dogBreeds = [
   },
 ];
 
-// var listHolder = document.getElementById("list");
-
-// var innerBreeds = "";
-
-// breeds.map(function(breed){
-//   innerBreeds += "<p>" + breed.id  + " - " + breed.name  + "</p>";
-// });
-
-// listHolder.innerHTML = innerBreeds;
+// https://www.britannica.com/topic/list-of-dog-breeds-2027892
