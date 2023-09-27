@@ -49,7 +49,7 @@ Here are some details about the files & folders in the repo and where you to sta
 
 - A list created based on [this Wikipedia file](https://en.wikipedia.org/wiki/List_of_cat_breeds).
 - If you would like to add a breed to the file, please cite where you got the description in your commit comments.
-- If there is any additional information you might like to contribute (could be a please add it with detailed commit comments as to why you think it's significant.
+- If there is any additional information you might like to contribute (please add it with detailed commit comments as to why you think it's significant).
 
 > `cats.js`
 
