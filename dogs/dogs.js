@@ -1,3 +1,13 @@
+// structure:
+// {
+//   name: 'string',
+//   age: number,
+//   color: 'string',
+//   weight: number,
+//   breed: 'string',
+//   sex: 'string',
+// },
+
 const basic = [
   {
     name: 'Juno',
@@ -5,7 +15,7 @@ const basic = [
     color: 'black & tan',
     weight: 65,
     breed: 'Husky Mix',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Poppy',
@@ -13,7 +23,7 @@ const basic = [
     color: 'fawn',
     weight: 25,
     breed: 'French Bulldog',
-    sex: F,
+    sex: 'F',
   },
 
   {
@@ -22,7 +32,7 @@ const basic = [
     color: 'black',
     weight: 18,
     breed: 'Shih Tzu',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Mr. Fusspot',
@@ -30,7 +40,7 @@ const basic = [
     color: 'brown',
     weight: 9,
     breed: 'Toy Poodle',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Laddie',
@@ -38,7 +48,7 @@ const basic = [
     color: 'red',
     weight: 40,
     breed: 'Border Collie',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Agusta',
@@ -46,7 +56,7 @@ const basic = [
     color: 'white',
     weight: 54,
     breed: 'Golden Retriever',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Rincewind',
@@ -54,7 +64,7 @@ const basic = [
     color: 'black',
     weight: 8,
     breed: 'Chihuahua',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Weatherwax',
@@ -62,7 +72,7 @@ const basic = [
     color: 'brown',
     weight: 13,
     breed: 'Doberman Pinscher',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Magrat',
@@ -70,7 +80,7 @@ const basic = [
     color: 'red',
     weight: 60,
     breed: 'Standard Poodle',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Greebo',
@@ -78,7 +88,7 @@ const basic = [
     color: 'black',
     weight: 44,
     breed: 'Rottweiler',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Stibbons',
@@ -86,7 +96,7 @@ const basic = [
     color: 'black',
     weight: 6,
     breed: 'Yorkshire Terrier',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Vetinari',
@@ -94,7 +104,7 @@ const basic = [
     color: 'black',
     weight: 20,
     breed: 'Schipperke',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Motzart',
@@ -102,7 +112,7 @@ const basic = [
     color: 'red',
     weight: 135,
     breed: 'Saint Bernard',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'The Librarian',
@@ -110,7 +120,7 @@ const basic = [
     color: 'red',
     weight: 40,
     breed: 'Basset Hound',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'TwoFlower',
@@ -118,7 +128,7 @@ const basic = [
     color: 'brown',
     weight: 52,
     breed: 'Chow Chow',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Detritus',
@@ -126,7 +136,7 @@ const basic = [
     color: 'white',
     weight: 84,
     breed: 'Mastiff',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Carrot',
@@ -134,7 +144,7 @@ const basic = [
     color: 'red',
     weight: 61,
     breed: 'Golden Retriever',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Vimes',
@@ -142,7 +152,7 @@ const basic = [
     color: 'brown',
     weight: 38,
     breed: 'English Bulldog',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Cherry',
@@ -150,7 +160,7 @@ const basic = [
     color: 'brown',
     weight: 31,
     breed: 'Shetland Sheepdog',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Nobby',
@@ -158,7 +168,7 @@ const basic = [
     color: 'brown',
     weight: 19,
     breed: 'Pug',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Brutha',
@@ -166,7 +176,7 @@ const basic = [
     color: 'white',
     weight: 21,
     breed: 'Pembroke Welsh Corgi',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Puddles',
@@ -174,7 +184,7 @@ const basic = [
     age: 11,
     weight: 65,
     breed: 'Beagle Mix',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Sandy',
@@ -182,7 +192,7 @@ const basic = [
     age: 6,
     weight: 69,
     breed: 'American Bulldog',
-    sex: F,
+    sex: 'F',
   },
 
   {
@@ -191,7 +201,7 @@ const basic = [
     color: 'grey',
     weight: 88,
     breed: 'Irish Wolf Hound',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Mrs. Clean',
@@ -199,7 +209,7 @@ const basic = [
     color: 'black',
     weight: 59,
     breed: 'Labradoodle',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Sadie',
@@ -207,7 +217,7 @@ const basic = [
     color: 'blue',
     weight: 40,
     breed: 'Weimaraner',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Angus',
@@ -215,7 +225,7 @@ const basic = [
     color: 'brown',
     weight: 54,
     breed: 'Labrador Retriever',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Fergus',
@@ -223,7 +233,7 @@ const basic = [
     color: 'tri-coloured',
     weight: 11,
     breed: 'Chihuahua mix',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Maxy',
@@ -231,7 +241,7 @@ const basic = [
     color: 'tan',
     weight: 33,
     breed: 'Wheaton Terrier',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Tootsie',
@@ -239,7 +249,7 @@ const basic = [
     color: 'red',
     weight: 63,
     breed: 'Rhodesian Ridgeback',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Greta',
@@ -247,7 +257,7 @@ const basic = [
     color: 'white',
     weight: 41,
     breed: 'Australian Cattle Dog',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Stubbs',
@@ -255,7 +265,7 @@ const basic = [
     color: 'Black and white',
     weight: 21,
     breed: 'Jack Russel Terrier',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Atari',
@@ -263,7 +273,7 @@ const basic = [
     color: 'black',
     weight: 43,
     breed: 'Puli',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Flash',
@@ -271,7 +281,7 @@ const basic = [
     color: 'red',
     weight: 119,
     breed: 'Grate Dane',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Libby',
@@ -279,7 +289,7 @@ const basic = [
     color: 'grey',
     weight: 40,
     breed: 'Mix',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Tuppy',
@@ -287,7 +297,7 @@ const basic = [
     color: 'brown',
     weight: 22,
     breed: 'Dachshund',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Tetris',
@@ -295,7 +305,7 @@ const basic = [
     color: 'black and brown',
     weight: 84,
     breed: 'German Shepard',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Zucchi',
@@ -303,7 +313,7 @@ const basic = [
     color: 'white',
     weight: 61,
     breed: 'Grey Hound',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Busta',
@@ -311,7 +321,7 @@ const basic = [
     color: 'red',
     weight: 27,
     breed: 'Cocker Spaniel',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Oreo',
@@ -319,7 +329,7 @@ const basic = [
     color: 'black and white',
     weight: 57,
     breed: 'Dalmatian',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Noodle',
@@ -327,7 +337,7 @@ const basic = [
     color: 'brown, black & white',
     weight: 31,
     breed: 'Potcake',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Bishop',
@@ -335,7 +345,7 @@ const basic = [
     color: 'brown & white',
     weight: 26,
     breed: 'Shetland Sheepdog',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Penny',
@@ -343,7 +353,7 @@ const basic = [
     color: 'white & grey',
     weight: 21,
     breed: 'Whippet',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Monty',
@@ -351,7 +361,7 @@ const basic = [
     color: 'black',
     weight: 35,
     breed: 'Scottish Terrier',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Lancealot',
@@ -359,7 +369,7 @@ const basic = [
     color: 'red & black',
     weight: 45,
     breed: 'Basset Hound',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Sushi',
@@ -367,7 +377,7 @@ const basic = [
     color: 'brown & white',
     weight: 52,
     breed: 'American Bulldog',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Frodo',
@@ -375,7 +385,7 @@ const basic = [
     color: 'red',
     weight: 79,
     breed: 'Mastiff',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Toadstool',
@@ -383,7 +393,7 @@ const basic = [
     color: 'beige',
     weight: 51,
     breed: 'Golden Retriever',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Lenny',
@@ -391,7 +401,7 @@ const basic = [
     color: 'brown & white',
     weight: 48,
     breed: 'English Bulldog',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Isla',
@@ -399,7 +409,7 @@ const basic = [
     color: 'black & brown',
     weight: 31,
     breed: 'Shetland Sheepdog',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Pi',
@@ -407,7 +417,7 @@ const basic = [
     color: 'black',
     weight: 27,
     breed: 'Pug',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Bubbles',
@@ -415,7 +425,7 @@ const basic = [
     color: 'tri coloured',
     weight: 29,
     breed: 'Pembroke Welsh Corgi',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Jet',
@@ -423,7 +433,7 @@ const basic = [
     age: 10,
     weight: 57,
     breed: 'Beagle Mix',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Mochi',
@@ -431,7 +441,7 @@ const basic = [
     age: 7,
     weight: 56,
     breed: 'American Bulldog',
-    sex: F,
+    sex: 'F',
   },
 
   {
@@ -440,7 +450,7 @@ const basic = [
     color: 'blue',
     weight: 79,
     breed: 'Irish Wolf Hound',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Sydney',
@@ -448,7 +458,7 @@ const basic = [
     color: 'black & brown',
     weight: 51,
     breed: 'Labradoodle',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Scarlet',
@@ -456,7 +466,7 @@ const basic = [
     color: 'blue',
     weight: 49,
     breed: 'Weimaraner',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Cowboy',
@@ -464,7 +474,7 @@ const basic = [
     color: 'black',
     weight: 59,
     breed: 'Labrador Retriever',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Pepe',
@@ -472,7 +482,7 @@ const basic = [
     color: 'white',
     weight: 15,
     breed: 'Chihuahua mix',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Ivy',
@@ -480,7 +490,7 @@ const basic = [
     color: 'tan',
     weight: 35,
     breed: 'Wheaton Terrier',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Rolo',
@@ -488,7 +498,7 @@ const basic = [
     color: 'red',
     weight: 73,
     breed: 'Rhodesian Ridgeback',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Betsy',
@@ -496,7 +506,7 @@ const basic = [
     color: 'white & blue',
     weight: 33,
     breed: 'Australian Cattle Dog',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Jester',
@@ -504,7 +514,7 @@ const basic = [
     color: 'black & brown',
     weight: 69,
     breed: 'Rottweiler',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Kira',
@@ -512,7 +522,7 @@ const basic = [
     color: 'tan & white',
     weight: 42,
     breed: 'Bulldog Mix',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Ducky',
@@ -520,7 +530,7 @@ const basic = [
     color: 'beige',
     weight: 14,
     breed: 'Shih Tzu',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Stella',
@@ -528,7 +538,7 @@ const basic = [
     color: 'white & brindle',
     weight: 65,
     breed: 'Boxer',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Rocky',
@@ -536,7 +546,7 @@ const basic = [
     color: 'brindle',
     weight: 72,
     breed: 'Boxer',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Birdie',
@@ -544,7 +554,7 @@ const basic = [
     color: 'beige',
     weight: 12,
     breed: 'Pomeranian',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Georgia',
@@ -552,7 +562,7 @@ const basic = [
     color: 'beige & black',
     weight: 65,
     breed: 'Doberman mix',
-    sex: F,
+    sex: 'F',
   },
 ];
 

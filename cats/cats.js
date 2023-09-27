@@ -1,3 +1,13 @@
+// structure:
+// {
+//   name: 'string',
+//   age: number,
+//   color: 'string',
+//   weight: number,
+//   breed: 'string',
+//   sex: 'string',
+// },
+
 const basic = [
   {
     name: 'Juniper',
@@ -5,7 +15,7 @@ const basic = [
     color: 'Black and tan',
     weight: 12,
     breed: 'Domestic Shorthair',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Piper',
@@ -13,7 +23,7 @@ const basic = [
     color: 'beige',
     weight: 9,
     breed: 'British Shorthair',
-    sex: F,
+    sex: 'F',
   },
 
   {
@@ -22,7 +32,7 @@ const basic = [
     color: 'black',
     weight: 15,
     breed: 'Domestic Longhair',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Fozzy',
@@ -30,7 +40,7 @@ const basic = [
     color: 'brown',
     weight: 13,
     breed: 'Ragdoll',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Louis',
@@ -38,7 +48,7 @@ const basic = [
     color: 'ruddy',
     weight: 10,
     breed: 'Abyssinian',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Piper',
@@ -46,7 +56,7 @@ const basic = [
     color: 'blue',
     weight: 12,
     breed: 'Tonkinese',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Rony',
@@ -54,7 +64,7 @@ const basic = [
     color: 'brown',
     weight: 14,
     breed: 'Scottish Fold',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Weasly',
@@ -62,7 +72,7 @@ const basic = [
     color: 'brown',
     weight: 18,
     breed: 'Maine Coon',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Maddie',
@@ -70,7 +80,7 @@ const basic = [
     color: 'calico',
     weight: 15,
     breed: 'Domestic Shorthair',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Gecko',
@@ -78,7 +88,7 @@ const basic = [
     color: 'brown',
     weight: 10,
     breed: 'Bengal',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Shirley Temple',
@@ -86,7 +96,7 @@ const basic = [
     color: 'blue',
     weight: 17,
     breed: 'British Shorthair',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Vince',
@@ -94,7 +104,7 @@ const basic = [
     color: 'black',
     weight: 12,
     breed: 'Domestic Longhair',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Gandolf',
@@ -102,7 +112,7 @@ const basic = [
     color: 'black',
     weight: 13,
     breed: 'Bombay',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Thelma',
@@ -110,7 +120,7 @@ const basic = [
     color: 'seal',
     weight: 14,
     breed: 'Siamese',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Twiggy',
@@ -118,7 +128,7 @@ const basic = [
     color: 'tortoiseshell',
     weight: 13,
     breed: 'Domestic Shorthair',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Demitrius',
@@ -126,7 +136,7 @@ const basic = [
     color: 'brown',
     weight: 17,
     breed: 'Bengal',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Cocoa',
@@ -134,7 +144,7 @@ const basic = [
     color: 'chocolate',
     weight: 15,
     breed: 'Siamese',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Luigi',
@@ -142,7 +152,7 @@ const basic = [
     color: 'ruddy',
     weight: 10,
     breed: 'Abyssinian',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Pebbles',
@@ -150,7 +160,7 @@ const basic = [
     color: 'brown',
     weight: 14,
     breed: 'Domestic Longhair',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Noggle',
@@ -158,7 +168,7 @@ const basic = [
     color: 'orange',
     weight: 22,
     breed: 'Domestic Shorthair',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Quince',
@@ -166,7 +176,7 @@ const basic = [
     color: 'white & grey',
     weight: 19,
     breed: 'Maine Coon',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Leloo',
@@ -174,7 +184,7 @@ const basic = [
     color: 'seal',
     weight: 16,
     breed: 'Birman',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Jade',
@@ -182,7 +192,7 @@ const basic = [
     color: 'brown',
     weight: 13,
     breed: 'Bengal',
-    sex: F,
+    sex: 'F',
   },
 
   {
@@ -191,7 +201,7 @@ const basic = [
     color: 'grey',
     weight: 9,
     breed: 'Domestic Longhair',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Ripley',
@@ -199,7 +209,7 @@ const basic = [
     color: 'black',
     weight: 15,
     breed: 'Domestic Shorthair',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Halo',
@@ -207,7 +217,7 @@ const basic = [
     color: 'seal',
     weight: 13,
     breed: 'Birman',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Koda',
@@ -215,7 +225,7 @@ const basic = [
     color: 'sable',
     weight: 12,
     breed: 'Burmese',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Gramps',
@@ -223,7 +233,7 @@ const basic = [
     color: 'brown',
     weight: 12,
     breed: 'Bengal',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Daisy',
@@ -231,7 +241,7 @@ const basic = [
     color: 'tan',
     weight: 11,
     breed: 'Domestic Longhair',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Snickers',
@@ -239,7 +249,7 @@ const basic = [
     color: 'grey',
     weight: 16,
     breed: 'Nebelung',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Nell',
@@ -247,7 +257,7 @@ const basic = [
     color: 'white',
     weight: 10,
     breed: 'Domestic Shorthair',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Tike',
@@ -255,7 +265,7 @@ const basic = [
     color: 'black and brown',
     weight: 12,
     breed: 'Maine Coon',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Fidget',
@@ -263,7 +273,7 @@ const basic = [
     color: 'blue',
     weight: 17,
     breed: 'Persian',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Batman',
@@ -271,7 +281,7 @@ const basic = [
     color: 'tuxedo',
     weight: 12,
     breed: 'Domestic Longhair',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Pigeon',
@@ -279,7 +289,7 @@ const basic = [
     color: 'black',
     weight: 13,
     breed: 'Bombay',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Zippy',
@@ -287,7 +297,7 @@ const basic = [
     color: 'brown',
     weight: 10,
     breed: 'Domestic Shorthair',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Otto',
@@ -295,7 +305,7 @@ const basic = [
     color: 'champagne',
     weight: 12,
     breed: 'Burmese',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Raviolo',
@@ -303,7 +313,7 @@ const basic = [
     color: 'seal',
     weight: 14,
     breed: 'Tonkinese',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Cool J',
@@ -311,7 +321,7 @@ const basic = [
     color: 'black',
     weight: 12,
     breed: 'Bombay',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'KitKat',
@@ -319,7 +329,7 @@ const basic = [
     color: 'black and white',
     weight: 10,
     breed: 'Domestic Shorthair',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Duchess',
@@ -327,7 +337,7 @@ const basic = [
     color: 'brown, black & white',
     weight: 12,
     breed: 'Domestic Longhair',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Beta',
@@ -335,7 +345,7 @@ const basic = [
     color: 'blue',
     weight: 16,
     breed: 'Russian Blue',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Bijou',
@@ -343,7 +353,7 @@ const basic = [
     color: 'white & grey',
     weight: 8,
     breed: 'Domestic Longhair',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Mailman',
@@ -351,7 +361,7 @@ const basic = [
     color: 'black',
     weight: 12,
     breed: 'Domestic Shorthair',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Robin Hood',
@@ -359,7 +369,7 @@ const basic = [
     color: 'chocolate',
     weight: 14,
     breed: 'Himalayan',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Babushka',
@@ -367,7 +377,7 @@ const basic = [
     color: 'grey',
     weight: 11,
     breed: 'Nebelung',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Scamp',
@@ -375,7 +385,7 @@ const basic = [
     color: 'blue',
     weight: 15,
     breed: 'Russian Blue',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Kong',
@@ -383,7 +393,7 @@ const basic = [
     color: 'beige',
     weight: 10,
     breed: 'Domestic Shorthair',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Moe',
@@ -391,7 +401,7 @@ const basic = [
     color: 'chocolate',
     weight: 12,
     breed: 'Persian',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Pepper',
@@ -399,7 +409,7 @@ const basic = [
     color: 'black & brown',
     weight: 16,
     breed: 'Domestic Longhair',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Karma',
@@ -407,7 +417,7 @@ const basic = [
     color: 'seal',
     weight: 13,
     breed: 'Siamese',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Bubbles',
@@ -415,7 +425,7 @@ const basic = [
     color: 'tri coloured',
     weight: 13,
     breed: 'Domestic Shorthair',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Hype',
@@ -423,7 +433,7 @@ const basic = [
     color: 'Black, brown and white',
     weight: 12,
     breed: 'Ragdoll',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Fifi',
@@ -431,7 +441,7 @@ const basic = [
     color: 'brown & white',
     weight: 14,
     breed: 'Domestic Longhair',
-    sex: F,
+    sex: 'F',
   },
 
   {
@@ -440,7 +450,7 @@ const basic = [
     color: 'black',
     weight: 10,
     breed: 'Bombay',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Cali',
@@ -448,7 +458,7 @@ const basic = [
     color: 'black & brown',
     weight: 15,
     breed: 'Domestic Shorthair',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Rosi',
@@ -456,7 +466,7 @@ const basic = [
     color: 'chocolate',
     weight: 11,
     breed: 'Himalayan',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Road Runner',
@@ -464,7 +474,7 @@ const basic = [
     color: 'black',
     weight: 12,
     breed: 'Domestic Longhair',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Rodrigo',
@@ -472,7 +482,7 @@ const basic = [
     color: 'grey & white',
     weight: 16,
     breed: 'Scottish Fold',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Tiger Lily',
@@ -480,7 +490,7 @@ const basic = [
     color: 'white',
     weight: 9,
     breed: 'British Shorthair',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Baloo',
@@ -488,7 +498,7 @@ const basic = [
     color: 'blue',
     weight: 13,
     breed: 'Siamese',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Honey',
@@ -496,7 +506,7 @@ const basic = [
     color: 'white & blue',
     weight: 8,
     breed: 'Domestic Longhair',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Pinky',
@@ -504,7 +514,7 @@ const basic = [
     color: 'calico',
     weight: 8,
     breed: 'Domestic Shorthair',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Beavis',
@@ -512,7 +522,7 @@ const basic = [
     color: 'tabby',
     weight: 15,
     breed: 'Maine Coon',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Sweetie',
@@ -520,7 +530,7 @@ const basic = [
     color: 'white and black',
     weight: 13,
     breed: 'Bobtail Mix',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Ginger',
@@ -528,7 +538,7 @@ const basic = [
     color: 'tortoiseshell',
     weight: 11,
     breed: 'Domestic Shorthair',
-    sex: F,
+    sex: 'F',
   },
   {
     name: 'Skittles',
@@ -536,7 +546,7 @@ const basic = [
     color: 'seal',
     weight: 14,
     breed: 'Ragdoll',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Freddie',
@@ -544,7 +554,7 @@ const basic = [
     color: 'grey',
     weight: 15,
     breed: 'Scottish Fold',
-    sex: M,
+    sex: 'M',
   },
   {
     name: 'Velvet',
@@ -552,7 +562,7 @@ const basic = [
     color: 'white & grey',
     weight: 10,
     breed: 'Burmese',
-    sex: F,
+    sex: 'F',
   },
 ];
 
