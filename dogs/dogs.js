@@ -8,7 +8,7 @@
 //   sex: 'string',
 // },
 
-const basic = [
+const dogs = [
   {
     name: 'Juno',
     age: 11,
