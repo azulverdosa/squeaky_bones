@@ -20,13 +20,61 @@ Anyone and everyone can! However this is geared mostly for beginners 😉
 
 When you contribute to Open Source, you are taking part in the collaborative effort of a vast community of passionate developers and contributors! This means that you'll meet new people and make friends, collaborate with other developers on projects, find mentors and have an opportunity to learn from each other. Open source also empowers you to build your confidence as a developer, build your resume, and build your professional network. Moreover, your contribution—no matter how big or small—makes a direct impact on the future of the open source project.
 
+Want some extra details on how to run through this process like a pro? Have a quick read of this article [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/) to prep you for your first steps into open source contributions.
+
 ## Getting Started
 
 Start off easy by adding something small (like adding a new dog instance). This will help you orient yourself in the project and increase your confidence and experience. No one will judge you if you make a mistake, and you can't break anything! Ask for some pointers if you get stuck. You got this!
 
-Want some extra details on how to run through this process like a pro? Have a quick read of this article [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/) to prep you for your first steps into open source contributions.
+The only thing that is required to get started is `git`. Make sure you have it installed on your computer by running `git --version` in your terminal. If you have not installed it yet, here are some brief instructions:
 
-The only thing that is required to get started is `git`. Make sure you have it installed on your computer by running `git --version` in your terminal. If you want some more detailed instruction on `git`, [try this](https://help.github.com/articles/set-up-git/). Want some extra `git` info and instruction? Check these out:
+<details>
+
+<summary> <strong>Installing on macOS</strong> </summary>
+
+There are several ways to install Git on macOS. The easiest is probably to install the Xcode Command Line Tools. On Mavericks (10.9) or above you can do this simply by trying to run git from the Terminal the very first time:
+
+```sh
+git --version
+```
+
+If you don’t have it installed already, it will prompt you to install it.
+
+</details>
+
+<details>
+
+<summary> <strong>Installing on Linux</strong> </summary>
+
+If you want to install the basic Git tools on Linux via a binary installer, you can generally do so through the package management tool that comes with your distribution. If you’re on Fedora (or any closely-related RPM-based distribution, such as RHEL or CentOS), you can use dnf:
+
+```sh
+sudo dnf install git-all
+```
+
+If you’re on a Debian-based distribution, such as Ubuntu, try apt:
+
+```sh
+sudo apt install git-all
+```
+
+For more options, there are instructions for installing on several different Unix distributions on the [Git website](https://git-scm.com/download/linux).
+
+</details>
+
+<details>
+
+<summary> <strong>Installing on Windows</strong> </summary>
+
+There are also a few ways to install Git on Windows. The most official build is available for download on the Git website. Just go to [HERE](https://git-scm.com/download/win) and the download will start automatically. Note that this is a project called Git for Windows, which is separate from Git itself; for more information on it, go to [Git For Windows](https://gitforwindows.org).
+
+To get an automated installation you can use the Git Chocolatey package. Note that the Chocolatey package is community maintained.
+
+</details>
+
+</br>
+
+Want some extra `git` info and instructions? Check these out:
 
 - [How to use Git: A reference guide](https://www.digitalocean.com/community/cheatsheets/how-to-use-git-a-reference-guide)
 - [Resource To learn Git](https://try.github.io/)
