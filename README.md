@@ -56,4 +56,6 @@ Give a ⭐️ if you like this project!
 
 ## License
 
-MIT License Copyright (c) [2023] [AvaElise]
+The MIT License (MIT)
+
+Copyright (c) 2023 Ava Elise

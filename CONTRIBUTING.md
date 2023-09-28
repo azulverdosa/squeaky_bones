@@ -100,17 +100,17 @@ Here are some details about the files & folders in the repo and where you to sta
 
 ### 1. Fork this repository
 
-Fork this repository by clicking on the fork button on the top of this page. Give your new repo any name and description you like (or leave it as the default), this will create a copy of this repository in your account. A fork is basically your own working copy of this repository.
+Fork this repository by clicking on the `fork` button on the top of this page. Give your new repo any new name (`<your-repo-name>`) and description you like or leave it as the default. This will create a copy of this repository in your account. A fork is basically your own working copy of this repository.
 
 ### 2. Clone the repository
 
 <!-- <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/clone.png" alt="clone this repository" /> -->
 
-Now you will clone the forked repository to your machine. Go to your GitHub account, open the forked repository called `<your-repo-name>` _(forked from azuleverdosa/pet_database)_. Click on the "Code" button and then click the _copy to clipboard_ icon.
+Now you will clone the forked repository to your machine. Go to your GitHub account, open the forked repository called `<your-repo-name>` _(forked from azuleverdosa/pet_database)_ . Click on the `Code` button and then click the _copy to clipboard_ icon.
 
-Open a terminal and run the following git command inside the folder you want to copy the repo:
+Open a terminal and run the following git command inside the folder you want to clone the repo:
 
-```
+```sh
 git clone <url-you-just-copied>
 ```
 
@@ -120,23 +120,25 @@ git clone <url-you-just-copied>
 
 For example:
 
-```
-git clone git@github.com:<yourusername>/pet_database.git
+```sh
+git clone git@github.com:<user-name>/pet_database.git
 ```
 
-> **NOTE:** `<this-is-you>` will be your GitHub username. Here you're copying the contents of the pet_database repository on your GitHub to your computer.
+Here you're copying the contents of the `pet_database` repository on your GitHub to your computer.
+
+> **NOTE:** `<user-name>` will be your GitHub username.
 
 ### 3. Create a branch
 
 It's common practice to create a new branch for each new feature or bugfix you are working on. Change into the new repository directory on your computer (if you are not already there):
 
-```
+```sh
 cd <your-repo-name>
 ```
 
 Now create a branch using the `git switch` command:
 
-```
+```sh
 git switch -c <your-new-branch-name>
 ```
 
@@ -144,7 +146,7 @@ git switch -c <your-new-branch-name>
 
 For example:
 
-```
+```sh
 git switch -c create/new-dog/jane
 ```
 
@@ -161,13 +163,11 @@ git switch -c create/new-dog/jane
 
 In most cases, before you begin making your changes you'll need to install the project's dependencies. This repo does not have any (as of yet) so you don't need this step, but it's useful to know. In your terminal you would run:
 
-```
+```sh
 npm install
 ```
 
-<!-- ### 5. Open your repo in your your code editor -->
-
-### 6. Make desired changes
+### 5. Make desired changes
 
 Now it's time to make your changes. Let's add a new instance of a dog to the `dogs` collection 🌭
 
@@ -180,7 +180,7 @@ Now it's time to make your changes. Let's add a new instance of a dog to the `do
    <summary> <strong>Not sure how? Click here for details!</strong> </summary>
    In your code editor terminal type:
 
-   > `git branch  `
+   > `git branch`
 
    This will list all the branches and highlight the branch you are using.
 
@@ -192,73 +192,71 @@ Now it's time to make your changes. Let's add a new instance of a dog to the `do
 
    </details>
 
-<!-- 2. Ensure you have switched to your new branch - in your code editor terminal type:
+3. Open the `dogs` file.
 
-   > `git branch  `
+4. Add a new dog object to the end of the `dogs` array.
 
-   this will list all the branches and highlight the branch you are using
+5. Save the file when you are done.
 
-   if you are not on your new branch repeat the git switch steps WITHOUT -c
+### 6. Commit your changes
 
-   > `git switch <your-new-branch-name>` -->
-
-3. Add a new dog object to the end of the `dogs` array.
-
-4. Save the file when you are done.
-
-### 7. Commit your changes
-
-This involves a few steps, first, run `git status` to see which changes you have made. This will look something like:
+This involves a few steps, first, run `git status` to see which changes you have made. This should look something like:
 
 <img width="300" src=".github/status.png" alt="Git status" />
 
 Next, `add` these changes to your next commit by running:
 
-```
+```sh
 git add dogs.js
 ```
 
-Finally you can commit your changes with a message by running:
+Finally, you can commit your changes with a message by running:
 
 ```sh
-git commit -m <"Your message">
+git commit -m "<Your-message>"
 ```
 
 For example:
 
 ```sh
-git commit -m "Adding a new rebus"
+git commit -m "Add new dog"
 ```
 
-### Push changes to GitHub
+> **NOTE:** You MUST include the " " around your commit comments.
+
+### 7. Push changes to GitHub
 
 Push your changes using the command `git push`:
 
+```sh
+git push -u origin <your-new-branch-name>
 ```
-git push -u origin your-branch-name
-```
 
-replacing `your-branch-name` with the name of the branch you created earlier.
+> **NOTE:** replace `<your-new-branch-name>` (including the <>) with the name of the branch you created earlier.
 
-### 6. Submit your changes for review
+### 8. Open a pull request
 
-If you go to your repository on GitHub, you'll see a `Compare & pull request` button. Click on that button.
+If you go to your repository on GitHub, you'll see a `Compare & pull request` button. Click on that button and you're almost there!
 
-<img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/compare-and-pull.png" alt="create a pull request" />
+<!-- <img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/compare-and-pull.png" alt="create a pull request" /> -->
 
-Now submit the pull request.
+1. Describe your changes and submit your pull request.
 
-<img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/submit-pull-request.png" alt="submit pull request" />
+2. Now submit the pull request!
 
-When I merge all your changes into the main branch of this project, you will get a notification email letting you know it's.
+### 🚀 Congratulations! 🚀
+
+You just took your first step as an open source contributor and completed the standard `fork -> clone -> edit -> pull request` workflow that you'll often encounter as a contributor!. Your pull request will be reviewed as soon as possible. When I merge all your changes into the main branch of this project, you will get a notification email letting you know it's approved.
+
+If you feel like it, please give this repos a star ⭐.
+
+<!-- <img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/submit-pull-request.png" alt="submit pull request" /> -->
 
 ### Git source control in your code editor
 
 Additionally, there are many code editors that will allow you to perform all these git commands through the editor itself. I use VS Code and you can follow their [walk through](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git) of how to clone, commit and push to your remote repo. If you are using a different code editor, check out their documentation to see if they have any instructions for source control!
 
 ### Where to go from here?
-
-Congrats! You just completed the standard _fork -> clone -> edit -> pull request_ workflow that you'll often encounter as a contributor!
 
 Celebrate your contribution and share it with your friends and followers by going to [web app](https://firstcontributions.github.io/#social-share).
 
