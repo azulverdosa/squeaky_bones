@@ -28,11 +28,11 @@ Status: In Progress
 
 To do list:
 
-- [] Build out detailed list that can be used for veterinarians, dog daycare, or any other project I can think of
+- [ ] Build out detailed list that can be used for veterinarians, dog daycare, or any other project I can think of
 - [x] Open up for Hactoberfest to help jr devs get involved on GtiHub
-- [] Build a front end for easy additions to the collection
-- [] Create a filter to serach the databse
-- [] Create reports based on pets as well as sales
+- [ ] build a front end for easy adding to the database
+- [ ] create a filter to serach the databse
+- [ ] create reports based on pets as well as sales
 
 ## Contact
 
