@@ -72,8 +72,6 @@ To get an automated installation you can use the Git Chocolatey package. Note th
 
 </details>
 
-</br>
-
 Want some extra `git` info and instructions? Check these out:
 
 - [How to use Git: A reference guide](https://www.digitalocean.com/community/cheatsheets/how-to-use-git-a-reference-guide)
