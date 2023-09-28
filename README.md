@@ -240,11 +240,11 @@ Now let's get you started with contributing to other projects. We've compiled a 
 
 Improvement Thoughts:
 
-- [] Build out detailed list that can be used for veterinarians, dog daycare, or any other project I can think of
+- [ ] Build out detailed list that can be used for veterinarians, dog daycare, or any other project I can think of
 - [x] Open up for Hactoberfest to help jr devs get involved on GtiHub
-- [] build a front end for easy adding to the database
-- [] create a filter to serach the databse
-- [] create reports based on pets as well as sales
+- [ ] build a front end for easy adding to the database
+- [ ] create a filter to serach the databse
+- [ ] create reports based on pets as well as sales
   
 ## Contact
 
