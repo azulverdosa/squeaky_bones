@@ -102,11 +102,13 @@ Here are some details about the files & folders in the repo and where you to sta
 
 Fork this repository by clicking on the `fork` button on the top of this page. Give your new repo any new name (`<your-repo-name>`) and description you like or leave it as the default. This will create a copy of this repository in your account. A fork is basically your own working copy of this repository.
 
+<img src="/images/fork.png" alt="fork button" />
+
 ### 2. Clone the repository
 
-<!-- <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/clone.png" alt="clone this repository" /> -->
-
 Now you will clone the forked repository to your machine. Go to your GitHub account, open the forked repository called `<your-repo-name>` _(forked from azuleverdosa/pet_database)_ . Click on the `Code` button and then click the _copy to clipboard_ icon.
+
+<img src="/images/clone.png" alt="clone button" />
 
 Open a terminal and run the following git command inside the folder you want to clone the repo:
 
