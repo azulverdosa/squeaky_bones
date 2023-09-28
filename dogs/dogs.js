@@ -564,6 +564,15 @@ const dogs = [
     breed: 'Doberman mix',
     sex: 'F',
   },
+
+  {
+    name: 'May',
+    age: 9,
+    color: 'silver',
+    weight: 142,
+    breed: 'Great Dane',
+    sex: 'F',
+  },
 ];
 
 //https://dogoftheday.com/
