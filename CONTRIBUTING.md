@@ -94,8 +94,6 @@ Here are some details about the files & folders in the repo and where you to sta
     - Sub-Saharan Africa - SSA
     - Please ensure your country's region is correct and you can cross check [here](https://www.nationsonline.org/oneworld/countries_of_the_world.htm)
 
-<!-- <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="fork this repository" /> -->
-
 ## Step-by-Step Guide
 
 ### 1. Fork this repository
@@ -106,7 +104,7 @@ Fork this repository by clicking on the `fork` button on the top of this page. G
 
 ### 2. Clone the repository
 
-Now you will clone the forked repository to your machine. Go to your GitHub account, open the forked repository called `<your-repo-name>` _(forked from azuleverdosa/pet_database)_ . Click on the `Code` button and then click the _copy to clipboard_ icon.
+Now you will clone the forked repository to your machine. Go to your GitHub account, open the forked repository called `<your-repo-name>` _(forked from azuleverdosa/pet_database)_ . Click on the `Code` button at the top right and then click the _copy to clipboard_ icon.
 
 <img src="/images/clone.png" alt="clone button" />
 
