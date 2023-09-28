@@ -18,7 +18,9 @@ This is a mini project of mine that is going to be used as mock-data of dogs and
 
 ## Contributions
 
-Any and all contributions are welcome! If you are new to the dev world and would like to know where to start, head to the [CONTRIBUTIONS.md](https://github.com/azulverdosa/pet_database/blob/main/CONTRIBUTING.md) file for some direction!
+Any and all contributions are welcome! Have a look around, add some data, make a suggestion, offer a UI design, I'm open to all ideas!
+
+If you are new to the dev world and would like to know where to start, head to the [CONTRIBUTIONS.md](https://github.com/azulverdosa/pet_database/blob/main/CONTRIBUTING.md) file for some direction!
 
 ## Project Status
 
