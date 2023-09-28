@@ -202,7 +202,7 @@ Now it's time to make your changes. Let's add a new instance of a dog to the `do
 
 This involves a few steps, first, run `git status` to see which changes you have made. This should look something like:
 
-<img width="300" src=".github/status.png" alt="Git status" />
+<img src="/images/status.png" alt="git status" />
 
 Next, `add` these changes to your next commit by running:
 
@@ -238,7 +238,7 @@ git push -u origin <your-new-branch-name>
 
 If you go to your repository on GitHub, you'll see a `Compare & pull request` button. Click on that button and you're almost there!
 
-<!-- <img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/compare-and-pull.png" alt="create a pull request" /> -->
+<img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/compare-and-pull.png" alt="create a pull request" />
 
 1. Describe your changes and submit your pull request.
 
