@@ -14,7 +14,7 @@
 
 ## General Info
 
-This is a mini project of mine that is going to be used as mock-data of dogs and cats with a short list of pet details. I plan to use this collection as mock-data in applications that I have on the back burner. I am opening this up for Hacktoberfest to allow new developers the chance to make their first contributions! There are some other files in this same repo that are related to random thoughts I've had for applications.
+This is a mini project of mine that is going to be used as mock-data of dogs and cats with a short list of pet details. I plan to use this collection in applications that I have on the back burner. I am opening this up for Hacktoberfest to allow new developers the chance to make their first contributions! There are some other files in this same repo that are related to random thoughts I've had for applications.
 
 ## Contributions
 
@@ -32,9 +32,10 @@ To do list:
 
 - [ ] Build out detailed list that can be used for veterinarians, dog daycare, or any other project I can think of
 - [x] Open up for Hactoberfest 2023 to help jr devs get involved on GtiHub
-- [ ] Build a front end for easy additions to the database
-- [ ] Create a filter to serach the databse
+- [ ] Build a GUI for easy additions to the collections?
+- [ ] Create a filter to serach the collections
 - [ ] Create reports based on pets as well as sales
+- [ ] Create a game based on data
 
 ## Contact
 
@@ -54,7 +55,8 @@ Give a ⭐️ if you like this project!
 - Repo Inspiration - [@Donard97](https://github.com/Donard97/vet-clinic-database)
 - New Contributors Instructions Inspiration
   - [GitHub](https://github.com/firstcontributions/first-contributions)
-  - [@ollelauribostrom](https://github.com/ollelauribostrom/rebus)
+  - [@ollelauribostrom](https://github.com/ollelauribostrom/rebus) (also gave the inspiration on opening the repo to new developers 🙏 ) 
+
 
 ## License
 
