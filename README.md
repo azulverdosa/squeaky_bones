@@ -31,6 +31,7 @@ Status: In Progress
 To do list:
 
 - [ ] Build out detailed list that can be used for veterinarians, dog daycare, or any other project I can think of
+- [ ] Add photos to pet profiles
 - [x] Open up for Hactoberfest 2023 to help jr devs get involved on GtiHub
 - [ ] Build a GUI for easy additions to the collections?
 - [ ] Create a filter to serach the collections
@@ -55,8 +56,7 @@ Give a ⭐️ if you like this project!
 - Repo Inspiration - [@Donard97](https://github.com/Donard97/vet-clinic-database)
 - New Contributors Instructions Inspiration
   - [GitHub](https://github.com/firstcontributions/first-contributions)
-  - [@ollelauribostrom](https://github.com/ollelauribostrom/rebus) (also gave the inspiration on opening the repo to new developers 🙏 ) 
-
+  - [@ollelauribostrom](https://github.com/ollelauribostrom/rebus) (also gave the inspiration on opening the repo to new developers 🙏 )
 
 ## License
 
