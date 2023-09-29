@@ -308,7 +308,7 @@ Additionally, there are many code editors that will allow you to perform all the
 
 Keep this good time rollin'! Here is a list of projects with easy issues you can get started on:
 
-- [FirstContributions](https://firstcontributions.github.io/#project-list)
+- [FirstContributions](https://firstcontributions.github.io/)
 - [Friendly Beginner Repos Repos from @MunGell](https://github.com/MunGell/awesome-for-beginners)
 - [GitHub Endorsed "Great for New Contributors" ](https://github.com/showcases/great-for-new-contributors)
 
