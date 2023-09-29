@@ -304,11 +304,11 @@ Additionally, there are many code editors that will allow you to perform all the
 
 ### Where to go from here?
 
-Celebrate your contribution and share it with your friends and followers by going to [firstcontributions](https://firstcontributions.github.io/#social-share).
+Celebrate your contribution and share it with your friends and followers by going to [FirstContributions](https://firstcontributions.github.io/#social-share).
 
 Keep this good time rollin'! Here is a list of projects with easy issues you can get started on:
 
-- [FirstContributions](https://firstcontributions.github.io/#project-list)
+- [FirstContributions](https://firstcontributions.github.io/)
 - [Friendly Beginner Repos Repos from @MunGell](https://github.com/MunGell/awesome-for-beginners)
 - [GitHub Endorsed "Great for New Contributors" ](https://github.com/showcases/great-for-new-contributors)
 
