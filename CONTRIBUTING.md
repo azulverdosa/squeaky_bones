@@ -24,15 +24,17 @@ Want some extra details on how to run through this process like a pro? Have a qu
 
 ## Getting Started
 
-Start off easy by adding something small (like adding a new dog instance). This will help you orient yourself in the project and increase your confidence and experience. No one will judge you if you make a mistake, and you can't break anything! Ask for some pointers if you get stuck. You got this!
+Head down to the [File & Folder Details](#file--folder-details) to see what is going on in the repo. This will help you orient yourself in the project and increase your confidence and experience. Start off easy by doing something small (like adding a new dog instance), no one will judge you if you make a mistake, and you can't break anything! Read the [Step-by-Step Guide](#step-by-step-guide) if you want a detailed walkthrough if how to get going. Ask for some pointers if you get stuck. You got this!
 
-The only thing that is required to get started is `git`. Make sure you have it installed on your computer by running `git --version` in your terminal. If you have not installed it yet, here are some brief instructions:
+The only thing that is required to get started is `git`. Make sure you have it installed on your computer by running `git version` in your terminal. The output will either tell you which version of Git is installed, or it will alert you that git is an unknown command.
+
+If it is not installed, here are some brief instructions on how to do it:
 
 <details>
 
 <summary> <strong>Installing on macOS</strong> </summary>
 
-There are several ways to install Git on macOS. The easiest is probably to install the Xcode Command Line Tools. On Mavericks (10.9) or above you can do this simply by trying to run git from the Terminal the very first time:
+There are several ways to install Git on macOS. The easiest is probably to simply by trying to run git from the terminal the very first time:
 
 ```sh
 git --version
@@ -46,19 +48,21 @@ If you don’t have it installed already, it will prompt you to install it.
 
 <summary> <strong>Installing on Linux</strong> </summary>
 
-If you want to install the basic Git tools on Linux via a binary installer, you can generally do so through the package management tool that comes with your distribution. If you’re on Fedora (or any closely-related RPM-based distribution, such as RHEL or CentOS), you can use dnf:
+It is easiest to install Git on Linux using the preferred package manager of your Linux distribution.
+
+If you’re on Fedora (or any closely-related RPM-based distribution, such as RHEL or CentOS), you can use `dnf`:
 
 ```sh
 sudo dnf install git-all
 ```
 
-If you’re on a Debian-based distribution, such as Ubuntu, try apt:
+If you’re on a Debian-based distribution, such as Ubuntu, try `apt`:
 
 ```sh
 sudo apt install git-all
 ```
 
-For more options, there are instructions for installing on several different Unix distributions on the [Git website](https://git-scm.com/download/linux).
+For all the options, there are instructions for installing on several different Unix distributions at [Git website](https://git-scm.com/download/linux) for more instructions.
 
 </details>
 
@@ -66,9 +70,9 @@ For more options, there are instructions for installing on several different Uni
 
 <summary> <strong>Installing on Windows</strong> </summary>
 
-There are also a few ways to install Git on Windows. The most official build is available for download on the Git website. Just go to [HERE](https://git-scm.com/download/win) and the download will start automatically. Note that this is a project called Git for Windows, which is separate from Git itself; for more information on it, go to [Git For Windows](https://gitforwindows.org).
+Navigate to the latest [Git for Windows](https://gitforwindows.org/) installer and download the latest version.
 
-To get an automated installation you can use the Git Chocolatey package. Note that the Chocolatey package is community maintained.
+Once the installer has started, follow the instructions as provided in the Git Setup wizard screen until the installation is complete.
 
 </details>
 
@@ -295,8 +299,6 @@ If you go to your repository on GitHub, you'll see a `Compare & pull request` bu
 You just took your first step as an open source contributor and completed the standard `fork -> clone -> edit -> pull request` workflow that you'll often encounter as a contributor!. Your pull request will be reviewed as soon as possible. When I merge all your changes into the main branch of this project, you will get a notification email letting you know it's approved.
 
 If you feel like it, please give this repos a star ⭐.
-
-<!-- <img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/submit-pull-request.png" alt="submit pull request" /> -->
 
 ### Git source control in your code editor
 
