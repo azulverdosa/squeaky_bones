@@ -304,7 +304,7 @@ Additionally, there are many code editors that will allow you to perform all the
 
 ### Where to go from here?
 
-Celebrate your contribution and share it with your friends and followers by going to [web app](https://firstcontributions.github.io/#social-share).
+Celebrate your contribution and share it with your friends and followers by going to [firstcontributions](https://firstcontributions.github.io/#social-share).
 
 Keep this good time rollin'! Here is a list of projects with easy issues you can get started on:
 
