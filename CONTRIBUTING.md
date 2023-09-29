@@ -68,8 +68,6 @@ For more options, there are instructions for installing on several different Uni
 
 There are also a few ways to install Git on Windows. The most official build is available for download on the Git website. Just go to [HERE](https://git-scm.com/download/win) and the download will start automatically. Note that this is a project called Git for Windows, which is separate from Git itself; for more information on it, go to [Git For Windows](https://gitforwindows.org).
 
-To get an automated installation you can use the Git Chocolatey package. Note that the Chocolatey package is community maintained.
-
 </details>
 
 Want some extra `git` info and instructions? Check these out:
