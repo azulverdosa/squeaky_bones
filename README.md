@@ -34,7 +34,7 @@ To do list:
 - [ ] Add photos to pet profiles
 - [x] Open up for Hactoberfest 2023 to help jr devs get involved on GtiHub
 - [ ] Build a GUI for easy additions to the collections?
-- [ ] Create a filter to serach the collections
+- [ ] Create a filter to search the collections
 - [ ] Create reports based on pets as well as sales
 - [ ] Create a game based on data
 
