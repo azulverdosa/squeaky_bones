@@ -99,6 +99,8 @@ Here are some details about the files & folders in the repo and where you to sta
 
 - A collection that lists specific instances of cats with details describing them.
 - Feel free to add to this file with a completed entry that matches the structure of the other entries (noted at the top of the file).
+- I'd love to add photos to each exisiting pet profile, if you'd like to help I'm using [Unsplash](https://unsplash.com/) as a resource. Please add the image to "/assests/pet-image" and then add to the
+photo key of the pet. Do keep in mind that the photo should match the breed and colour of the pet!
 
 ### Dogs Folder
 
@@ -111,6 +113,7 @@ Here are some details about the files & folders in the repo and where you to sta
 
 - A collection that lists specific instances of dogs with details describing them.
 - Feel free to add to this file with a completed entry that matches the structure of the other entries (noted at the top of the file).
+- I'd love to add photos to each exisiting pet profile, if you'd like to help I'm using [Unsplash](https://unsplash.com/) as a resource. Please add the image to "/assests/pet-image" and then add to the photo key of the pet. Do keep in mind that the photo should match the breed and colour of the pet!
 
 ### Sales Folder
 
