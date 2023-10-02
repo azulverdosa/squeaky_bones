@@ -6,6 +6,7 @@
 //   weight: number,
 //   breed: 'string',
 //   sex: 'string',
+//   photo: 'string', - https://unsplash.com/
 // },
 
 const cats = [
@@ -16,6 +17,7 @@ const cats = [
     weight: 12,
     breed: 'Domestic Shorthair',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Piper',
@@ -24,6 +26,7 @@ const cats = [
     weight: 9,
     breed: 'British Shorthair',
     sex: 'F',
+    photo: '',
   },
 
   {
@@ -33,6 +36,7 @@ const cats = [
     weight: 15,
     breed: 'Domestic Longhair',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Fozzy',
@@ -41,6 +45,7 @@ const cats = [
     weight: 13,
     breed: 'Ragdoll',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Louis',
@@ -49,6 +54,7 @@ const cats = [
     weight: 10,
     breed: 'Abyssinian',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Piper',
@@ -57,6 +63,7 @@ const cats = [
     weight: 12,
     breed: 'Tonkinese',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Rony',
@@ -65,6 +72,7 @@ const cats = [
     weight: 14,
     breed: 'Scottish Fold',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Weasly',
@@ -73,6 +81,7 @@ const cats = [
     weight: 18,
     breed: 'Maine Coon',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Maddie',
@@ -81,6 +90,7 @@ const cats = [
     weight: 15,
     breed: 'Domestic Shorthair',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Gecko',
@@ -89,6 +99,7 @@ const cats = [
     weight: 10,
     breed: 'Bengal',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Shirley Temple',
@@ -97,6 +108,7 @@ const cats = [
     weight: 17,
     breed: 'British Shorthair',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Vince',
@@ -105,6 +117,7 @@ const cats = [
     weight: 12,
     breed: 'Domestic Longhair',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Gandolf',
@@ -113,6 +126,7 @@ const cats = [
     weight: 13,
     breed: 'Bombay',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Thelma',
@@ -121,6 +135,7 @@ const cats = [
     weight: 14,
     breed: 'Siamese',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Twiggy',
@@ -129,6 +144,7 @@ const cats = [
     weight: 13,
     breed: 'Domestic Shorthair',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Demitrius',
@@ -137,6 +153,7 @@ const cats = [
     weight: 17,
     breed: 'Bengal',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Cocoa',
@@ -145,6 +162,7 @@ const cats = [
     weight: 15,
     breed: 'Siamese',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Luigi',
@@ -153,6 +171,7 @@ const cats = [
     weight: 10,
     breed: 'Abyssinian',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Pebbles',
@@ -161,6 +180,7 @@ const cats = [
     weight: 14,
     breed: 'Domestic Longhair',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Noggle',
@@ -169,6 +189,7 @@ const cats = [
     weight: 22,
     breed: 'Domestic Shorthair',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Quince',
@@ -177,6 +198,7 @@ const cats = [
     weight: 19,
     breed: 'Maine Coon',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Leloo',
@@ -185,6 +207,7 @@ const cats = [
     weight: 16,
     breed: 'Birman',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Jade',
@@ -193,6 +216,7 @@ const cats = [
     weight: 13,
     breed: 'Bengal',
     sex: 'F',
+    photo: '',
   },
 
   {
@@ -202,6 +226,7 @@ const cats = [
     weight: 9,
     breed: 'Domestic Longhair',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Ripley',
@@ -210,6 +235,7 @@ const cats = [
     weight: 15,
     breed: 'Domestic Shorthair',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Halo',
@@ -218,6 +244,7 @@ const cats = [
     weight: 13,
     breed: 'Birman',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Koda',
@@ -226,6 +253,7 @@ const cats = [
     weight: 12,
     breed: 'Burmese',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Gramps',
@@ -234,6 +262,7 @@ const cats = [
     weight: 12,
     breed: 'Bengal',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Daisy',
@@ -242,6 +271,7 @@ const cats = [
     weight: 11,
     breed: 'Domestic Longhair',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Snickers',
@@ -250,6 +280,7 @@ const cats = [
     weight: 16,
     breed: 'Nebelung',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Nell',
@@ -258,6 +289,7 @@ const cats = [
     weight: 10,
     breed: 'Domestic Shorthair',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Tike',
@@ -266,6 +298,7 @@ const cats = [
     weight: 12,
     breed: 'Maine Coon',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Fidget',
@@ -274,6 +307,7 @@ const cats = [
     weight: 17,
     breed: 'Persian',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Batman',
@@ -282,6 +316,7 @@ const cats = [
     weight: 12,
     breed: 'Domestic Longhair',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Pigeon',
@@ -290,6 +325,7 @@ const cats = [
     weight: 13,
     breed: 'Bombay',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Zippy',
@@ -298,6 +334,7 @@ const cats = [
     weight: 10,
     breed: 'Domestic Shorthair',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Otto',
@@ -306,6 +343,7 @@ const cats = [
     weight: 12,
     breed: 'Burmese',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Raviolo',
@@ -314,6 +352,7 @@ const cats = [
     weight: 14,
     breed: 'Tonkinese',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Cool J',
@@ -322,6 +361,7 @@ const cats = [
     weight: 12,
     breed: 'Bombay',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'KitKat',
@@ -330,6 +370,7 @@ const cats = [
     weight: 10,
     breed: 'Domestic Shorthair',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Duchess',
@@ -338,6 +379,7 @@ const cats = [
     weight: 12,
     breed: 'Domestic Longhair',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Beta',
@@ -346,6 +388,7 @@ const cats = [
     weight: 16,
     breed: 'Russian Blue',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Bijou',
@@ -354,6 +397,7 @@ const cats = [
     weight: 8,
     breed: 'Domestic Longhair',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Mailman',
@@ -362,6 +406,7 @@ const cats = [
     weight: 12,
     breed: 'Domestic Shorthair',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Robin Hood',
@@ -370,6 +415,7 @@ const cats = [
     weight: 14,
     breed: 'Himalayan',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Babushka',
@@ -378,6 +424,7 @@ const cats = [
     weight: 11,
     breed: 'Nebelung',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Scamp',
@@ -386,6 +433,7 @@ const cats = [
     weight: 15,
     breed: 'Russian Blue',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Kong',
@@ -394,6 +442,7 @@ const cats = [
     weight: 10,
     breed: 'Domestic Shorthair',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Moe',
@@ -402,6 +451,7 @@ const cats = [
     weight: 12,
     breed: 'Persian',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Pepper',
@@ -410,6 +460,7 @@ const cats = [
     weight: 16,
     breed: 'Domestic Longhair',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Karma',
@@ -418,6 +469,7 @@ const cats = [
     weight: 13,
     breed: 'Siamese',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Bubbles',
@@ -426,6 +478,7 @@ const cats = [
     weight: 13,
     breed: 'Domestic Shorthair',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Hype',
@@ -434,6 +487,7 @@ const cats = [
     weight: 12,
     breed: 'Ragdoll',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Fifi',
@@ -442,6 +496,7 @@ const cats = [
     weight: 14,
     breed: 'Domestic Longhair',
     sex: 'F',
+    photo: '',
   },
 
   {
@@ -451,6 +506,7 @@ const cats = [
     weight: 10,
     breed: 'Bombay',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Cali',
@@ -459,6 +515,7 @@ const cats = [
     weight: 15,
     breed: 'Domestic Shorthair',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Rosi',
@@ -467,6 +524,7 @@ const cats = [
     weight: 11,
     breed: 'Himalayan',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Road Runner',
@@ -475,6 +533,7 @@ const cats = [
     weight: 12,
     breed: 'Domestic Longhair',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Rodrigo',
@@ -483,6 +542,7 @@ const cats = [
     weight: 16,
     breed: 'Scottish Fold',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Tiger Lily',
@@ -491,6 +551,7 @@ const cats = [
     weight: 9,
     breed: 'British Shorthair',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Baloo',
@@ -499,6 +560,7 @@ const cats = [
     weight: 13,
     breed: 'Siamese',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Honey',
@@ -507,6 +569,7 @@ const cats = [
     weight: 8,
     breed: 'Domestic Longhair',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Pinky',
@@ -515,6 +578,7 @@ const cats = [
     weight: 8,
     breed: 'Domestic Shorthair',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Beavis',
@@ -523,6 +587,7 @@ const cats = [
     weight: 15,
     breed: 'Maine Coon',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Sweetie',
@@ -531,6 +596,7 @@ const cats = [
     weight: 13,
     breed: 'Bobtail Mix',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Ginger',
@@ -539,6 +605,7 @@ const cats = [
     weight: 11,
     breed: 'Domestic Shorthair',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Skittles',
@@ -547,6 +614,7 @@ const cats = [
     weight: 14,
     breed: 'Ragdoll',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Freddie',
@@ -555,6 +623,7 @@ const cats = [
     weight: 15,
     breed: 'Scottish Fold',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Velvet',
@@ -563,6 +632,7 @@ const cats = [
     weight: 10,
     breed: 'Burmese',
     sex: 'F',
+    photo: '',
   },
 ];
 

@@ -6,6 +6,7 @@
 //   weight: number,
 //   breed: 'string',
 //   sex: 'string',
+//   photo: 'string', - https://unsplash.com/
 // },
 
 const dogs = [
@@ -16,6 +17,7 @@ const dogs = [
     weight: 65,
     breed: 'Husky Mix',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Poppy',
@@ -24,6 +26,7 @@ const dogs = [
     weight: 25,
     breed: 'French Bulldog',
     sex: 'F',
+    photo: '',
   },
 
   {
@@ -33,6 +36,7 @@ const dogs = [
     weight: 18,
     breed: 'Shih Tzu',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Mr. Fusspot',
@@ -41,6 +45,7 @@ const dogs = [
     weight: 9,
     breed: 'Toy Poodle',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Laddie',
@@ -49,6 +54,7 @@ const dogs = [
     weight: 40,
     breed: 'Border Collie',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Agusta',
@@ -57,6 +63,7 @@ const dogs = [
     weight: 54,
     breed: 'Golden Retriever',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Rincewind',
@@ -65,6 +72,7 @@ const dogs = [
     weight: 8,
     breed: 'Chihuahua',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Weatherwax',
@@ -73,6 +81,7 @@ const dogs = [
     weight: 13,
     breed: 'Doberman Pinscher',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Magrat',
@@ -81,6 +90,7 @@ const dogs = [
     weight: 60,
     breed: 'Standard Poodle',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Greebo',
@@ -89,6 +99,7 @@ const dogs = [
     weight: 44,
     breed: 'Rottweiler',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Stibbons',
@@ -97,6 +108,7 @@ const dogs = [
     weight: 6,
     breed: 'Yorkshire Terrier',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Vetinari',
@@ -105,6 +117,7 @@ const dogs = [
     weight: 20,
     breed: 'Schipperke',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Motzart',
@@ -113,6 +126,7 @@ const dogs = [
     weight: 135,
     breed: 'Saint Bernard',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'The Librarian',
@@ -121,6 +135,7 @@ const dogs = [
     weight: 40,
     breed: 'Basset Hound',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'TwoFlower',
@@ -129,6 +144,7 @@ const dogs = [
     weight: 52,
     breed: 'Chow Chow',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Detritus',
@@ -137,6 +153,7 @@ const dogs = [
     weight: 84,
     breed: 'Mastiff',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Carrot',
@@ -145,6 +162,7 @@ const dogs = [
     weight: 61,
     breed: 'Golden Retriever',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Vimes',
@@ -153,6 +171,7 @@ const dogs = [
     weight: 38,
     breed: 'English Bulldog',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Cherry',
@@ -161,22 +180,25 @@ const dogs = [
     weight: 31,
     breed: 'Shetland Sheepdog',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Nobby',
     age: 9,
-    color: 'brown',
+    color: 'fawn',
     weight: 19,
     breed: 'Pug',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Brutha',
     age: 6,
-    color: 'white',
+    color: 'white & tan',
     weight: 21,
     breed: 'Pembroke Welsh Corgi',
     sex: 'M',
+    photo: '/assets/pet-images/ivana-la-tycZhR54Ddk-unsplash.jpg',
   },
   {
     name: 'Puddles',
@@ -185,6 +207,7 @@ const dogs = [
     weight: 65,
     breed: 'Beagle Mix',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Sandy',
@@ -193,6 +216,7 @@ const dogs = [
     weight: 69,
     breed: 'American Bulldog',
     sex: 'F',
+    photo: '',
   },
 
   {
@@ -202,6 +226,7 @@ const dogs = [
     weight: 88,
     breed: 'Irish Wolf Hound',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Mrs. Clean',
@@ -210,6 +235,7 @@ const dogs = [
     weight: 59,
     breed: 'Labradoodle',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Sadie',
@@ -218,6 +244,7 @@ const dogs = [
     weight: 40,
     breed: 'Weimaraner',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Angus',
@@ -226,6 +253,7 @@ const dogs = [
     weight: 54,
     breed: 'Labrador Retriever',
     sex: 'M',
+    photo: '/assets/pet-images/lucrezia-carnelos-0liYTl4dJxk-unsplash.jpg',
   },
   {
     name: 'Fergus',
@@ -234,6 +262,7 @@ const dogs = [
     weight: 11,
     breed: 'Chihuahua mix',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Maxy',
@@ -242,6 +271,7 @@ const dogs = [
     weight: 33,
     breed: 'Wheaton Terrier',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Tootsie',
@@ -250,6 +280,7 @@ const dogs = [
     weight: 63,
     breed: 'Rhodesian Ridgeback',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Greta',
@@ -258,6 +289,7 @@ const dogs = [
     weight: 41,
     breed: 'Australian Cattle Dog',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Stubbs',
@@ -266,6 +298,7 @@ const dogs = [
     weight: 21,
     breed: 'Jack Russel Terrier',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Atari',
@@ -274,6 +307,7 @@ const dogs = [
     weight: 43,
     breed: 'Puli',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Flash',
@@ -282,6 +316,7 @@ const dogs = [
     weight: 119,
     breed: 'Grate Dane',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Libby',
@@ -290,6 +325,7 @@ const dogs = [
     weight: 40,
     breed: 'Mix',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Tuppy',
@@ -298,6 +334,7 @@ const dogs = [
     weight: 22,
     breed: 'Dachshund',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Tetris',
@@ -306,6 +343,7 @@ const dogs = [
     weight: 84,
     breed: 'German Shepard',
     sex: 'M',
+    photo: 'assets/pet-images/michael-dziedzic-si06cFB0g1s-unsplash (1).jpg',
   },
   {
     name: 'Zucchi',
@@ -314,6 +352,7 @@ const dogs = [
     weight: 61,
     breed: 'Grey Hound',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Busta',
@@ -322,6 +361,7 @@ const dogs = [
     weight: 27,
     breed: 'Cocker Spaniel',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Oreo',
@@ -330,6 +370,7 @@ const dogs = [
     weight: 57,
     breed: 'Dalmatian',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Noodle',
@@ -338,6 +379,7 @@ const dogs = [
     weight: 31,
     breed: 'Potcake',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Bishop',
@@ -346,6 +388,7 @@ const dogs = [
     weight: 26,
     breed: 'Shetland Sheepdog',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Penny',
@@ -354,6 +397,7 @@ const dogs = [
     weight: 21,
     breed: 'Whippet',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Monty',
@@ -362,6 +406,7 @@ const dogs = [
     weight: 35,
     breed: 'Scottish Terrier',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Lancealot',
@@ -370,6 +415,7 @@ const dogs = [
     weight: 45,
     breed: 'Basset Hound',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Sushi',
@@ -378,6 +424,7 @@ const dogs = [
     weight: 52,
     breed: 'American Bulldog',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Frodo',
@@ -386,6 +433,7 @@ const dogs = [
     weight: 79,
     breed: 'Mastiff',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Toadstool',
@@ -394,6 +442,7 @@ const dogs = [
     weight: 51,
     breed: 'Golden Retriever',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Lenny',
@@ -402,6 +451,7 @@ const dogs = [
     weight: 48,
     breed: 'English Bulldog',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Isla',
@@ -410,6 +460,7 @@ const dogs = [
     weight: 31,
     breed: 'Shetland Sheepdog',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Pi',
@@ -418,6 +469,7 @@ const dogs = [
     weight: 27,
     breed: 'Pug',
     sex: 'F',
+    photo: '/assets/pet-images/Pi-black-pug1.jpg',
   },
   {
     name: 'Bubbles',
@@ -426,14 +478,16 @@ const dogs = [
     weight: 29,
     breed: 'Pembroke Welsh Corgi',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Jet',
     color: 'Black, brown and white',
     age: 10,
     weight: 57,
-    breed: 'Beagle Mix',
+    breed: 'Beagle',
     sex: 'M',
+    photo: '/assets/pet-images/luke-macgillivray-p_qco2Eo-E0-unsplash.jpg',
   },
   {
     name: 'Mochi',
@@ -442,6 +496,7 @@ const dogs = [
     weight: 56,
     breed: 'American Bulldog',
     sex: 'F',
+    photo: '',
   },
 
   {
@@ -451,6 +506,7 @@ const dogs = [
     weight: 79,
     breed: 'Irish Wolf Hound',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Sydney',
@@ -459,6 +515,7 @@ const dogs = [
     weight: 51,
     breed: 'Labradoodle',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Scarlet',
@@ -467,6 +524,7 @@ const dogs = [
     weight: 49,
     breed: 'Weimaraner',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Cowboy',
@@ -475,6 +533,7 @@ const dogs = [
     weight: 59,
     breed: 'Labrador Retriever',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Pepe',
@@ -483,6 +542,7 @@ const dogs = [
     weight: 15,
     breed: 'Chihuahua mix',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Ivy',
@@ -491,6 +551,7 @@ const dogs = [
     weight: 35,
     breed: 'Wheaton Terrier',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Rolo',
@@ -499,6 +560,7 @@ const dogs = [
     weight: 73,
     breed: 'Rhodesian Ridgeback',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Betsy',
@@ -507,6 +569,7 @@ const dogs = [
     weight: 33,
     breed: 'Australian Cattle Dog',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Jester',
@@ -515,6 +578,7 @@ const dogs = [
     weight: 69,
     breed: 'Rottweiler',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Kira',
@@ -523,6 +587,7 @@ const dogs = [
     weight: 42,
     breed: 'Bulldog Mix',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Ducky',
@@ -531,6 +596,7 @@ const dogs = [
     weight: 14,
     breed: 'Shih Tzu',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Stella',
@@ -539,6 +605,7 @@ const dogs = [
     weight: 65,
     breed: 'Boxer',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Rocky',
@@ -547,6 +614,7 @@ const dogs = [
     weight: 72,
     breed: 'Boxer',
     sex: 'M',
+    photo: '',
   },
   {
     name: 'Birdie',
@@ -555,6 +623,7 @@ const dogs = [
     weight: 12,
     breed: 'Pomeranian',
     sex: 'F',
+    photo: '',
   },
   {
     name: 'Georgia',
@@ -563,6 +632,7 @@ const dogs = [
     weight: 65,
     breed: 'Doberman mix',
     sex: 'F',
+    photo: '',
   },
 
   {
@@ -572,6 +642,7 @@ const dogs = [
     weight: 142,
     breed: 'Great Dane',
     sex: 'F',
+    photo: '',
   },
 ];
 
