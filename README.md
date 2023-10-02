@@ -10,6 +10,7 @@
 - [Room for Improvement](#room-for-improvement)
 - [Contact](#contact)
 - [Support](#🤝-support)
+- [Acknowledgments](#acknowledgments)
 - [License](#license)
 
 ## General Info
