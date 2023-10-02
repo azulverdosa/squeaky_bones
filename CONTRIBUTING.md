@@ -315,6 +315,7 @@ Keep this good time rollin'! Here is a list of projects with easy issues you can
 - [FirstContributions](https://firstcontributions.github.io/)
 - [Friendly Beginner Repos Repos from @MunGell](https://github.com/MunGell/awesome-for-beginners)
 - [GitHub Endorsed "Great for New Contributors" ](https://github.com/showcases/great-for-new-contributors)
+- [First Timers Only](https://www.firsttimersonly.com/)
 
 ## Further Reading
 

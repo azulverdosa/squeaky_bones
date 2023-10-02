@@ -1,5 +1,9 @@
 # Pet Information Collection
 
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![first-timers](https://badgen.net/badge/first-timers/friendly/blue)](https://www.firsttimersonly.com/)
+[![Hactoberfest](https://badgen.net/badge/Hactoberfest/helloworld/yellow)](https://hacktoberfest.com/)
+
 > List of dogs and cats and their basic details, for use as mock data AND to help new developers contribute to open source!
 
 ## Table of Contents
