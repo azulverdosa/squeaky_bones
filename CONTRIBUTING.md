@@ -292,7 +292,7 @@ If you go to your repository on GitHub, you'll see a `Compare & pull request` bu
 
 <img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/compare-and-pull.png" alt="create a pull request" />
 
-1. Describe your changes and submit your pull request.
+1. Describe your changes.
 
 2. Now submit the pull request!
 
