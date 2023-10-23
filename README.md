@@ -37,7 +37,7 @@ To do list:
 
 - [ ] Build out detailed list that can be used for veterinarians, dog daycare, or any other project I can think of
 - [ ] Add photos to pet profiles
-- [x] Open up for Hactoberfest 2023 to help jr devs get involved on GtiHub
+- [x] Open up for Hactoberfest 2023 to help jr devs get involved on GitHub
 - [ ] Build a GUI for easy additions to the collections?
 - [ ] Create a filter to search the collections
 - [ ] Create reports based on pets as well as sales
