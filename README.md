@@ -8,7 +8,7 @@
 
 ## Table of Contents
 
-- [General Info](#general-information)
+- [General Info](#general-info)
 - [Contributions](#contributions)
 - [Project Status](#project-status)
 - [Room for Improvement](#room-for-improvement)
