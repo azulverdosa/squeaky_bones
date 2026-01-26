@@ -13,7 +13,7 @@
 - [Project Status](#project-status)
 - [Room for Improvement](#room-for-improvement)
 - [Contact](#contact)
-- [Support](#support-🤝)
+- [Support](#support)
 - [Acknowledgments](#acknowledgments)
 - [License](#license)
 
@@ -51,7 +51,7 @@ Created by [@azulverdosa](https://github.com/azulverdosa) - feel free to contact
 - [LinkedIn](https://www.linkedin.com/in/avatorre/ 'linked')
 - [Email](mailto:ellemocambo@gmail.com)
 
-## Support 🤝
+## Support
 
 Contributions, issues, and feature requests are welcome!
 
